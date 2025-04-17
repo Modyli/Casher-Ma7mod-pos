@@ -1,0 +1,14 @@
+cashier-system/
+│
+├── client/                # ملفات الـ React
+│   ├── package.json       # تعريف الحزم والتبعيات الخاصة بالـ React
+│   ├── src/
+│   │   ├── POS.js         # صفحة POS لإتمام المبيعات
+│   │   └── ...            # باقي ملفات React
+│
+├── server/                # ملفات الـ Express
+│   ├── package.json       # تعريف الحزم والتبعيات الخاصة بالـ Express
+│   └── index.js           # سيرفر الـ Express الذي يحتوي على API
+│
+├── .gitignore             # ليتجاهل ملفات غير ضرورية (مثل node_modules)
+├── README.md              # ملف الوصف للمشروع
